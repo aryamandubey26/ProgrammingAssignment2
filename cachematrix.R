@@ -41,6 +41,6 @@ cacheSolve <- function(t,...) {
       }  
       MatX<-t$get()               # getting the matrix
       inv<-solve(MatX,...)       #finding inverse
-      t$setInverse(inv) #storing the inverse,can be used again if matrix is same
+      t$setInverse(inv)          #storing the inverse,can be used again if matrix is same
       inv
 }
